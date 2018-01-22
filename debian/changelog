@@ -1,0 +1,16 @@
+ros-kinetic-rqt-joint-trajectory-plot (0.0.1-0xenial) xenial; urgency=high
+
+  * Organize and format package files
+    - roslint check
+    - autopep8 for python scripts
+  * Port to PyQt5 as used in kinetic(#1 <https://github.com/7675t/rqt_joint_trajectory_plot/issues/1>)
+  * Port to PyQt5
+    no toolbar so far, apparently this is not yet(?!) available in matplotlibs Qt5Agg backend.
+  * add screenshot to README.md
+  * add a screenshot file.
+  * Initial commit
+  * Contributors: Ryosuke Tajima, Simon Schmeisser
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Fri, 19 Jan 2018 15:00:00 -0000
+
+
