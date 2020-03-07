@@ -1,0 +1,57 @@
+ros-melodic-rqt-joint-trajectory-plot (0.0.5-1bionic) bionic; urgency=high
+
+  * Add melodic release(#13 <https://github.com/tork-a/rqt_joint_trajectory_plot/issues/13>)
+    - Set CI python version to 3.6
+    - Merge pull request
+  * added ability to plot planned_path from moveit and made rqt launch file(#10 <https://github.com/tork-a/rqt_joint_trajectory_plot/issues/10>)
+    - updated package.xml to include moveit_msgs for plotting display_trajectory messages
+  * fixed example PVA image size
+  * added empty display trajectory check and updated readme with instrucitons to launch PVA perspective
+  * added ability to plot planned_path from moveit and made rqt launch file with custom perspective
+  * Fix workspace name for CI (#11 <https://github.com/tork-a/rqt_joint_trajectory_plot/issues/11>)
+    - Fix workspace name as https://github.com/tork-a/jog_control/pull/37/files
+  * added empty display trajectory check and updated readme with instrucitons to launch PVA perspective
+  * added ability to plot planned_path from moveit and made rqt launch file with custom perspective
+  * Add travis.yml
+  * Contributors: Ryosuke Tajima, marqrazz
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Fri, 06 Mar 2020 15:00:00 -0000
+
+ros-melodic-rqt-joint-trajectory-plot (0.0.4-1bionic) bionic; urgency=high
+
+  * Fix lint problem
+  * Contributors: Ryosuke Tajima
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Wed, 13 Jun 2018 15:00:00 -0000
+
+ros-melodic-rqt-joint-trajectory-plot (0.0.3-1bionic) bionic; urgency=high
+
+  * Check the qt version in plot_widget.py for indigo release(#9 <https://github.com/tork-a/rqt_joint_trajectory_plot/issues/9>)
+  * Contributors: Ryosuke Tajima
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Wed, 13 Jun 2018 15:00:00 -0000
+
+ros-melodic-rqt-joint-trajectory-plot (0.0.2-1bionic) bionic; urgency=high
+
+  * Add script/rqt_joint_trajectory_plot(#7 <https://github.com/tork-a/rqt_joint_trajectory_plot/issues/7>)
+  * Update to visualize FollowJointTrajectoryActionGoal(#6 <https://github.com/tork-a/rqt_joint_trajectory_plot/issues/6>)
+  * Contributors: Kei Okada, Ryosuke Tajima
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Thu, 07 Jun 2018 15:00:00 -0000
+
+ros-melodic-rqt-joint-trajectory-plot (0.0.1-1bionic) bionic; urgency=high
+
+  * Organize and format package files
+    - roslint check
+    - autopep8 for python scripts
+  * Port to PyQt5 as used in kinetic(#1 <https://github.com/7675t/rqt_joint_trajectory_plot/issues/1>)
+  * Port to PyQt5
+    no toolbar so far, apparently this is not yet(?!) available in matplotlibs Qt5Agg backend.
+  * add screenshot to README.md
+  * add a screenshot file.
+  * Initial commit
+  * Contributors: Ryosuke Tajima, Simon Schmeisser
+
+ -- Tokyo Opensource Robotics Kyokai (TORK) Developer Team <dev@opensource-robotics.tokyo.jp>  Fri, 19 Jan 2018 15:00:00 -0000
+
+
